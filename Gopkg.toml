@@ -26,8 +26,16 @@
 
 
 [[constraint]]
-  name = "github.com/gin-gonic/gin"
-  version = "1.2.0"
+  name = "github.com/dghubble/gologin"
+  version = "2.0.0"
+
+[[constraint]]
+  name = "github.com/dghubble/oauth1"
+  version = "0.4.0"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/dghubble/sessions"
 
 [prune]
   go-tests = true
